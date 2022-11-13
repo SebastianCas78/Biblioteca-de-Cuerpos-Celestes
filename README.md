@@ -13,6 +13,6 @@ Algunos de los parámetros que decidí tener en cuenta para su clasificación so
 
 Este es un proyecto que estoy creando con el lenguaje de programación C++ con la finalidad de ayudar a todos los observadores espaciales a identificar y clasificar que tipo de cuerpo celeste estan viendo, esto en base a las características de cada tipo de cuerpo celeste registradas en la biblioteca.
 
-##Diagrama draw.io
+## Diagrama draw.io
 
 https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G17z64eCX9i4GjkJCEIm66m8x8ixInID9n
