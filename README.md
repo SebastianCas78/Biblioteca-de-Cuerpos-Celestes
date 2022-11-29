@@ -13,7 +13,7 @@ Algunos de los parámetros que decidí tener en cuenta para su clasificación so
 
 Este es un proyecto que estoy creando con el lenguaje de programación C++ con la finalidad de ayudar a todos los observadores espaciales a identificar y clasificar que tipo de cuerpo celeste estan viendo, esto en base a las características de cada tipo de cuerpo celeste registradas en la biblioteca.
 
-##Funcionamiento
+## Funcionamiento
 
 Al poner en marcha el código esté en un principio te dará la bienvenida y te pedirá que respondas tres preguntas que forman parte de la clase padre, una vez respondidas estas preguntas las respuestas dadas serán almacenadas y heredadas a tres clases (Asteroide, Cometa y Planeta).
 Posteriormente el programa te preguntará si quieres continuar y en caso de que así sea te pedirá que decidas cual es la clase a la que le ingresaran los datos; dependiendo de la clase elegida se te solicitará cierta información que será almacenada en otra clase que se encargará de imprimir toda la información agregada al finalizar la consulta del código.
