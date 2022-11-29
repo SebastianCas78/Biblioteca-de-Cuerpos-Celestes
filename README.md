@@ -18,6 +18,10 @@ Este es un proyecto que estoy creando con el lenguaje de programación C++ con l
 Al poner en marcha el código esté en un principio te dará la bienvenida y te pedirá que respondas tres preguntas que forman parte de la clase padre, una vez respondidas estas preguntas las respuestas dadas serán almacenadas y heredadas a tres clases (Asteroide, Cometa y Planeta).
 Posteriormente el programa te preguntará si quieres continuar y en caso de que así sea te pedirá que decidas cual es la clase a la que le ingresaran los datos; dependiendo de la clase elegida se te solicitará cierta información que será almacenada en otra clase que se encargará de imprimir toda la información agregada al finalizar la consulta del código.
 
+## Limitaciones
+Debido a limitantes de tiempo el código tuvo que ser reducido a seis clases sin contar el main; significando esto que las opciones de impresión de información fueron reducidas.
+Únicamente se puede elegir llenar la información de tres Cuerpos Celestes (Asteroide, Cometa y Planeta) aunque también se puede ingresar información de las lunas que puede tener un planeta, siendo esta la relación de agregación del código y de momento su única subclase.
+Sin embargo la base del código ya está lista y esta será mejorada con el paso del tiempo conforme aprenda más del lenguaje de programación, esto para aumentar la capacidad de información que puede ser obtenida.
 
 ## Diagrama draw.io
 
