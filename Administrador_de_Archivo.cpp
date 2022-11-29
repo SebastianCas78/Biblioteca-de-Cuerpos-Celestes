@@ -1,5 +1,6 @@
 #include "Administrador_de_Archivo.h" //Se definen las funciones de la clase Administrador de Archivo.
+#include <sstream>
+#include "string.h"
 
-void::guardarInfo(string int){
-    return 0;
+Administrador_Archivo::Administrador_Archivo(){
 }
