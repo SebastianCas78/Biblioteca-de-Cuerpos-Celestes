@@ -6,7 +6,7 @@ Algunos de los parámetros que decidí tener en cuenta para su clasificación so
 1) El tamaño del mismo ya que puede variar demasiado, desde cuerpos tan pequeños como una pelota de golf hasta cuerpos cientos de veces más grandes que nuestro sol.<br>
 2) Su brillo, ya que este puede dar mucha información sobre su distancia, su edad y el papel que juega en el universo.<br>
 3) De la misma manera su ubicación es otro punto muy importante a tener en cuenta a la hora de clasificarlo como uno de los tipos de cuerpos celestes existentes ya que con ella podemos obtener información de que efectos tiene sobre su entorno.<br>
-<br>Adicionalmente la biblioteca contará con la opción de agregar sugerencias de nueva información que los usuarios quieran aportar para enriquecer la plataforma; desde luego estas sugerencias seran analizadas para corroborar su vericidad y así evitar agregar información errónea que fomente la desinformación.
+<br>Adicionalmente la biblioteca contará con la opción de agregar sugerencias de nueva información que los usuarios quieran aportar para enriquecer la plataforma; desde luego estas sugerencias seran analizadas para corroborar su veracidad y así evitar agregar información errónea que fomente la desinformación.
 <br>
 
 ## Explicación
