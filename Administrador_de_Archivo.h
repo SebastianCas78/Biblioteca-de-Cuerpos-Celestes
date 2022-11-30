@@ -1,7 +1,7 @@
 #include "string.h"
 using namespace std;
 
-class Administrador_Archivo{ //Se declara la clase Administrador de Archivo y sus atributos para guardar la información en int, float y string.
+class Administrador_Archivo{ //Se declara la clase Administrador de Archivo y sus atributos para guardar la información.
     private: //Atributos
 
     public: //Metodos
