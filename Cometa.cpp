@@ -6,7 +6,7 @@ Cometa::Cometa(){
     velocidadCometa=0.0;
 }
 
-Cometa::Cometa(bool _tipo_Movimiento,bool _orbita_Cuerpo,bool _visibles,float _tamanoCola,float _velocidadCometa):Cuerpo_Celeste(_tipo_Movimiento,_orbita_Cuerpo,_visibles){
+Cometa::Cometa(int _tipo_Movimiento,int _orbita_Cuerpo,int _visibles,float _tamanoCola,float _velocidadCometa):Cuerpo_Celeste(_tipo_Movimiento,_orbita_Cuerpo,_visibles){
     tamanoCola=_tamanoCola;
     velocidadCometa=_velocidadCometa;
 }
@@ -33,3 +33,4 @@ string Cometa::imprimeDatos(){
     aux<<"VelocidadCometa: "<<velocidadCometa<<endl;
     return aux.str();
 }
+
