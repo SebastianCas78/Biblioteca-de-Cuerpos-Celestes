@@ -2,9 +2,6 @@
 #include <string.h>
 
 
-//Luna Planeta::imprimeDatos(){
-    //return cuenta_con_luna(s)[]
-//}
 Planeta::Planeta(){
     numero_lunas=0;
     densidad=0.0;
@@ -12,7 +9,7 @@ Planeta::Planeta(){
     periodo_orbital=0;
 }
 
-Planeta::Planeta(bool _tipo_Movimiento,bool _orbita_Cuerpo,bool _visibles,int _numero_lunas,float _densidad, float _diametro, int _perido_orbital):Cuerpo_Celeste(_tipo_Movimiento,_orbita_Cuerpo,_visibles){
+Planeta::Planeta(int _tipo_Movimiento,int _orbita_Cuerpo,int _visibles,int _numero_lunas,float _densidad, float _diametro, int _perido_orbital):Cuerpo_Celeste(_tipo_Movimiento,_orbita_Cuerpo,_visibles){
     numero_lunas=_numero_lunas;
     densidad=_densidad;
     diametro=_diametro;
@@ -54,22 +51,12 @@ void Planeta::agregarLuna(Luna luna,int numero_luna){
     lunas[numero_luna]=luna;
 }
 
-//string Planeta::numeroLunas(){
-  //  stringstream aux;
-    //for(int i=0; i<0; i++){
-      //  aux<<"Luna "<<i+1<<"\n"<<lunas[i].getLunaInfo()<<endl;
-        //}
-        //return aux.str();
-//}
 
 string Planeta::imprimeDatos(){
     stringstream aux;
-    //aux<<getInformacionPlaneta();
     aux<<"NumeroLunas: "<<numero_lunas<<endl;
     aux<<"Densidad: "<<densidad<<endl;
     aux<<"Diametro: "<<diametro<<endl;
     aux<<"PeriodoOrbital: "<<periodo_orbital<<endl;
-   // aux<<numeroLunas()<<endl;
-
     return aux.str();
 }
