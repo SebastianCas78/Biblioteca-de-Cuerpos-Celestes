@@ -1,4 +1,4 @@
-#ifndef CUERPO_CELESTE
+#ifndef CUERPO_CELESTE //Se declara la clase padre que heredara atributos.
 #define CUERPO_CELESTE
 #include "string.h"
 using namespace std;
