@@ -5,7 +5,7 @@ Asteroide::Asteroide(){
     diametro=0;
 }
 
-Asteroide::Asteroide(bool _tipo_Movimiento,bool _orbita_Cuerpo,bool _visibles,int _diametro):Cuerpo_Celeste(_tipo_Movimiento,_orbita_Cuerpo,_visibles){
+Asteroide::Asteroide(int _tipo_Movimiento,int _orbita_Cuerpo,int _visibles,int _diametro):Cuerpo_Celeste(_tipo_Movimiento,_orbita_Cuerpo,_visibles){
     diametro=_diametro;
 }
 
