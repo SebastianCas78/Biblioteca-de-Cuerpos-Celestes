@@ -2,13 +2,13 @@
 #include "Cuerpo_Celeste.h"
 using namespace std;
 
-class Asteroide : public Cuerpo_Celeste{//public Cuerpo_Celeste.h{ //Se declara la clase asteroide y su atributo diámetro.
+class Asteroide : public Cuerpo_Celeste{//Se declara la clase asteroide y su atributo diámetro.
     private: //Atributos
         int diametro;
 
     public: //Metodos
         Asteroide();
-        Asteroide(bool,bool,bool,int);//Constructor
+        Asteroide(int,int,int,int);//Constructor
 
         //Setters
         void setDiametro(int);
