@@ -5,23 +5,23 @@ using namespace std;
 
 class Cuerpo_Celeste{
     private: //Atributos
-        bool tipoMovimiento;
-        bool orbitaCuerpo;
-        bool visibles;
+        int tipoMovimiento;
+        int orbitaCuerpo;
+        int visibles;
 
     public: //Metodos
         Cuerpo_Celeste();
-        Cuerpo_Celeste(bool, bool, bool);
+        Cuerpo_Celeste(int, int, int);
 
         //Setters
-        void setTipoMovimiento(bool);
-        void setOrbitaCuerpo(bool);
-        void setVisibles(bool);
+        void setTipoMovimiento(int);
+        void setOrbitaCuerpo(int);
+        void setVisibles(int);
 
         //Getters
-        bool getTipoMovimiento();
-        bool getOrbitaCuerpo();
-        bool getVisibles();
+        int getTipoMovimiento();
+        int getOrbitaCuerpo();
+        int getVisibles();
 
         //Superstring
        //string imprimeDatos();
